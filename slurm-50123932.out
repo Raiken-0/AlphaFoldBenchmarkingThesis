@@ -1,0 +1,58 @@
+/groups/sbinlab/software/PRISM_tools/py3_ros_ddG_env/lib/python3.7/site-packages/Bio/SubsMat/__init__.py:131: BiopythonDeprecationWarning: Bio.SubsMat has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.substitution_matrices as a replacement, and contact the Biopython developers if you still need the Bio.SubsMat module.
+  BiopythonDeprecationWarning,
+INFO:Import succeeded
+INFO:Import succeeded
+2025-03-06 14:38:17 - INFO - Preparation started
+INFO:Preparation started
+2025-03-06 14:38:17 - INFO - Creating structure instance
+INFO:Creating structure instance
+2025-03-06 14:38:19 - INFO - Prepare the pdb and extract fasta file
+INFO:Prepare the pdb and extract fasta file
+2025-03-06 14:38:19 - INFO - Running clean_pdb.py script /lustre/hpc/sbinlab/software/anaconda2/bin/python2 /sbinlab/software/Rosetta_tools/tools/protein_tools/scripts/clean_pdb.py /groups/sbinlab/zqt390/Thesis_Project/af2_files/output_1OGA/prepare/input/input.pdb ABCDE  --keepzeroocc
+INFO:Running clean_pdb.py script /lustre/hpc/sbinlab/software/anaconda2/bin/python2 /sbinlab/software/Rosetta_tools/tools/protein_tools/scripts/clean_pdb.py /groups/sbinlab/zqt390/Thesis_Project/af2_files/output_1OGA/prepare/input/input.pdb ABCDE  --keepzeroocc
+Found existing PDB file at /groups/sbinlab/zqt390/Thesis_Project/af2_files/output_1OGA/prepare/input/input.pdb
+input ABCDE   850 --- --- MOD --- OK
+>input_A
+GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHEAEQLRAYLDGTCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE
+>input_C
+GILGFVFTL
+>input_B
+IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM
+>input_E
+MVDGGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQDPGQGLRLIYYSQIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCASSSRSSYEQYFGPGTRLTVTEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVSTDPQPLKEQPALNDSRYSLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRADQDRGGGCD
+>input_D
+MQLLEQSPQFLSIQEGENLTVYCNSSSVFSSLQWYRQEPGEGPVLLVTVVTGGEVKKLKRLTFQFGDARKDSSLHITAAQPGDTGLYLCAGAGSQGNLIFGKGTKLSVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKTVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPENDGGGCKHHHHHH
+2025-03-06 14:38:23 - INFO - end of output from clean_pdb.py
+INFO:end of output from clean_pdb.py
+
+MUSCLE v3.8.31 by Robert C. Edgar
+
+http://www.drive5.com/muscle
+This software is donated to the public domain.
+Please cite: Edgar, R.C. Nucleic Acids Res 32(5), 1792-97.
+
+fasta_file 2 seqs, max length 850, avg  length 850
+00:00:00    14 MB(-3%)  Iter   1   33.33%  K-mer dist pass 100:00:00    14 MB(-3%)  Iter   1  100.00%  K-mer dist pass 1
+00:00:00    14 MB(-3%)  Iter   1   33.33%  K-mer dist pass 200:00:00    14 MB(-3%)  Iter   1  100.00%  K-mer dist pass 2
+00:00:00    15 MB(-3%)  Iter   1  100.00%  Align node       00:00:00    19 MB(-4%)  Iter   1  100.00%  Align node
+00:00:00    19 MB(-4%)  Iter   1   50.00%  Root alignment00:00:00    19 MB(-4%)  Iter   1  100.00%  Root alignment00:00:00    19 MB(-4%)  Iter   1  100.00%  Root alignment
+/groups/sbinlab/software/PRISM_tools/py3_ros_ddG_env/lib/python3.7/site-packages/Bio/PDB/PDBParser.py:399: PDBConstructionWarning: Ignoring unrecognized record 'TER' at line 13248
+  PDBConstructionWarning,
+2025-03-06 14:38:24 - INFO - Generate mutfiles.
+INFO:Generate mutfiles.
+2025-03-06 14:38:24 - INFO - /groups/sbinlab/zqt390/Thesis_Project/af2_files/output_1OGA/input/mutations
+INFO:/groups/sbinlab/zqt390/Thesis_Project/af2_files/output_1OGA/input/mutations
+2025-03-06 14:38:24 - INFO - Generate sbatch files
+INFO:Generate sbatch files
+2025-03-06 14:38:24 - INFO - /groups/sbinlab/zqt390/Thesis_Project/af2_files/output_1OGA/relax/input/rosetta_relax.sbatch
+INFO:/groups/sbinlab/zqt390/Thesis_Project/af2_files/output_1OGA/relax/input/rosetta_relax.sbatch
+2025-03-06 14:38:24 - INFO - /groups/sbinlab/zqt390/Thesis_Project/af2_files/output_1OGA/relax/input/parse_relax.sbatch
+INFO:/groups/sbinlab/zqt390/Thesis_Project/af2_files/output_1OGA/relax/input/parse_relax.sbatch
+2025-03-06 14:38:24 - INFO - /groups/sbinlab/zqt390/Thesis_Project/af2_files/output_1OGA/ddG/input/rosetta_ddg.sbatch
+INFO:/groups/sbinlab/zqt390/Thesis_Project/af2_files/output_1OGA/ddG/input/rosetta_ddg.sbatch
+current env paths & exec: /groups/sbinlab/software/TMalign/TMalign /groups/sbinlab/software/muscle/muscle3.8.31_i86linux64 /groups/sbinlab/software/PRISM_tools/rosetta_stability-dev/software/rosetta_ddG_pipeline /sbinlab/software/Rosetta_2021_Aug_c7009b3/source/ /sbinlab/software/Rosetta_tools/tools/ /sbinlab/software/Rosetta_2021_Aug_c7009b3/database/ linuxgccrelease /groups/sbinlab/software/PRISM_tools/prism_parser/scripts c174a69d74f849894c68edef24ea7dc830a6331b v0.2.6-14-gc174a69 wEogNuisIGYhUmKe8T3KBaPnWYb6vtTRElSSZRFmRkE
+Mutation mode changed to mut_file
+Namespace(BENCH_MP_RELAX_REPEAT=5, BENCH_MP_RELAX_STRUCS=20, BENCH_MP_REPACK=8.0, BENCH_MP_REPEAT=5, CHAIN='ABCDE', DDG_FLAG_FILE='/groups/sbinlab/software/PRISM_tools/rosetta_stability-dev/software/rosetta_ddG_pipeline/data/sp/cartesian_ddg_flagfile', DO_CHECKING=True, DUMP_PDB=1, GAPS_OUTPUT=False, IS_MP=False, LIGAND=None, MODE='fullrun', MP_ALIGN_MODE='OPM', MP_ALIGN_REF='-', MP_CALC_SPAN_MODE='deepTMHMM', MP_CART_DDG=1, MP_ENERGY_FUNC='franklin2019', MP_ENERGY_FUNC_WEIGHTS='/groups/sbinlab/software/PRISM_tools/rosetta_stability-dev/software/rosetta_ddG_pipeline/data/mp/f19_cart_1.5.wts', MP_IGNORE_RELAX_MP_FLAGS=False, MP_LIPIDS='DLPC', MP_MULTISTRUC_PROTOCOL=0, MP_PH=-1.0, MP_REPACK_PROTOCOL='MP_flex_relax_ddG', MP_SPAN_INPUT=None, MP_TEMPERATURE=20.0, MP_THICKNESS=15, MUTATION_INPUT='/groups/sbinlab/zqt390/Thesis_Project/af2_files/1OGA_mutfile.txt', MUT_MODE='mut_file', NO_ZIP=False, OUTPUT_FILE='/groups/sbinlab/zqt390/Thesis_Project/af2_files/output_1OGA', OVERWRITE_PATH=True, RELAX_FLAG_FILE='/groups/sbinlab/software/PRISM_tools/rosetta_stability-dev/software/rosetta_ddG_pipeline/data/sp/relax_flagfile', RELAX_XML_INPUT='/groups/sbinlab/software/PRISM_tools/rosetta_stability-dev/software/rosetta_ddG_pipeline/data/mp/mp_relax.xml', RUN_STRUC='ABCDE', SCALE_FACTOR=2.9, SLURM_PARTITION='sbinlab_ib', STRUC_FILE='/groups/sbinlab/zqt390/Thesis_Project/af2_files/1OGA_af2.pdb', SUPERPOSE_ONTM=True, UNIPROT_ID='', VERBOSE=False, ZIP_FILES=True)
+Special residues in structure =  0
+Special residues in structure =  0
+Amount of errors =  0
