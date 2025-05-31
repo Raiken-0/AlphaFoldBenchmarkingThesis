@@ -1,0 +1,13 @@
+T B2 K
+T B2 I
+T B2 F
+T B2 L
+A A3 F
+A A3 K
+A A3 L
+A A3 T
+D A40 F
+D A40 I
+D A40 K
+D A40 T
+K A24 A

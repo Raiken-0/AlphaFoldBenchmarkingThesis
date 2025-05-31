@@ -1,0 +1,8 @@
+G D27 E
+T D90 Q
+V E49 D
+A E98 Y
+Y D49 W
+N E27 G
+S D50 G
+K D96 Q
